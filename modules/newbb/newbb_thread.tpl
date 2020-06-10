@@ -14,7 +14,7 @@
 	<div class="post-text post-text-mob">
 		<{if $topic_post.post_id > 0}>
            <span style="position: absolute; right: 25px;">
-           	<a style="color: #666666; font-size: 12px" id="<{$forum_post_prefix}><{$topic_post.post_id}>" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewtopic.php?post_id=<{$topic_post.post_id}>#<{$topic_post.post_id}>"><i class="fas fa-hashtag"></i><{$topic_post.post_no}></a>
+           	<a style="color: #666666; font-size: 12px" id="<{$forum_post_prefix}><{$topic_post.post_id}>" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewtopic.php?post_id=<{$topic_post.post_id}>#<{$topic_post.post_id}>"><span class="fas fa-hashtag"></span><{$topic_post.post_no}></a>
            </span>
         <{/if}>
 		
@@ -27,19 +27,19 @@
 							<{/if}>
                             </div>
                             <div class="candidates-list-desc job-single-meta  pt-2">
-                                <h5 class="mb-2 f-19"><i class="fas fa-bars"></i> <{$topic_post.post_title}></h5>
+                                <h5 class="mb-2 f-19"><span class="fas fa-bars"></span> <{$topic_post.post_title}></h5>
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-4">
-                                        <p class="text-muted f-15 mb-0"><i class="far fa-calendar-alt"></i> <{$topic_post.post_date}></p>
+                                        <p class="text-muted f-15 mb-0"><span class="fas fa-calendar-alt"></span> <{$topic_post.post_date}></p>
                                     </li>
                                     <li class="list-inline-item mr-4">
-                                        <p class="f-15 mb-0"><i class="fas fa-user"></i> <{$topic_post.poster.link}></p>
+                                        <p class="f-15 mb-0"><span class="fas fa-user"></span> <{$topic_post.poster.link}></p>
                                     </li>
 									<li class="list-inline-item mr-4">
-                                        <p class="f-15 mb-0"><i class="fas fa-users-cog"></i> <{$topic_post.poster.rank.title}></p>
+                                        <p class="f-15 mb-0"><span class="fas fa-users-cog"></span> <{$topic_post.poster.rank.title}></p>
                                     </li>
 									<li class="list-inline-item mr-4">
-                                        <p class="f-15 mb-0"><i class="fas fa-comments"></i> 
+                                        <p class="f-15 mb-0"><span class="fas fa-comments"></span> 
 										<{$smarty.const._MD_NEWBB_POSTS}>:
 										<{if $topic_post.poster.posts gt 0}>
 											<a href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewpost.php?uid=<{$topic_post.poster.uid}>" title="<{$smarty.const._ALL}>">
@@ -51,7 +51,7 @@
 										</p>
                                     </li>
 									<li class="list-inline-item mr-4">
-                                        <p class="text-muted f-15 mb-0"><i class="far fa-calendar-alt"></i> Since: <{$topic_post.poster.regdate|substr:0:10}></p>
+                                        <p class="text-muted f-15 mb-0"><span class="fas fa-calendar-alt"></span> Since: <{$topic_post.poster.regdate|substr:0:10}></p>
                                     </li>
                                 </ul>
                             </div>
@@ -87,7 +87,7 @@
 		                <{/foreach}>
 		        <{/if}>
 		    <{/if}>
-		    <a class="btn btn-success btn-xs" href="#threadtop" title="<{$smarty.const._MD_NEWBB_TOP}>"><i class="far fa-arrow-alt-circle-up"></i></a>
+		    <a class="btn btn-success btn-xs" href="#threadtop" title="<{$smarty.const._MD_NEWBB_TOP}>"><span class="fas fa-arrow-alt-circle-up"></span></a>
 		</div>
 	</div>
 	

@@ -18,11 +18,11 @@
       <thead class="newbb-head">
         <tr>
           <th style="width:50%;" class="newbb-topic-title">
-          	<span class="glyphicon glyphicon-list" aria-hidden="true" style="padding-right:10px;"></span><i class="fas fa-list"></i> <{$category.cat_title}>
+          	<span class="glyphicon glyphicon-list" aria-hidden="true" style="padding-right:10px;"></span><span class="fas fa-list"></span> <{$category.cat_title}>
           </th>
-          <th style="width:10%;" class="newbb-cat-title"><i class="fas fa-th-list"></i> <{$smarty.const._MD_NEWBB_TOPICS}></th>
-          <th style="width:10%;" class="newbb-cat-title"><i class="fas fa-list-ol"></i> <{$smarty.const._MD_NEWBB_POSTS}></th>
-          <th style="width:30%;" class="newbb-cat-title"><i class="fas fa-ellipsis-v"></i> <{$smarty.const._MD_NEWBB_LASTPOST}></th>
+          <th style="width:10%;" class="newbb-cat-title"><span class="fas fa-th-list"></span> <{$smarty.const._MD_NEWBB_TOPICS}></th>
+          <th style="width:10%;" class="newbb-cat-title"><span class="fas fa-list-ol"></span> <{$smarty.const._MD_NEWBB_POSTS}></th>
+          <th style="width:30%;" class="newbb-cat-title"><span class="fas fa-ellipsis-v"></span> <{$smarty.const._MD_NEWBB_LASTPOST}></th>
         </tr>
          <{if $category.cat_description}>
          <tr>

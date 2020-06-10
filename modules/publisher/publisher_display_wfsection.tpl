@@ -12,7 +12,7 @@
     <!-- End of if !$category || $category.subcats || ($category && $display_category_summary) //-->
 <{/if}>
 <h4 class="pub_last_articles_wf">
-    <span class="fa fa-newspaper-o"></span>&nbsp;<{$lang_items_title}>
+    <span class="fas fa-newspaper-o"></span>&nbsp;<{$lang_items_title}>
 </h4>
 <div class="publisher_items_list_">
     <{if $items}>
@@ -21,19 +21,19 @@
             <div class="article_wf_title">
                 <h3><{$item.titlelink}></h3>
                 <span>
-                    <span class="fa fa-tag"></span>&nbsp;<{$item.category}>
+                    <span class="fas fa-tag"></span>&nbsp;<{$item.category}>
                 </span>
                 <span>
-                    <span class="fa fa-user"></span>&nbsp;<{$item.who}>
+                    <span class="fas fa-user"></span>&nbsp;<{$item.who}>
                 </span>
                 <span>
-                    <span class="fa fa-calendar"></span>&nbsp;<{$item.when}>
+                    <span class="fas fa-calendar"></span>&nbsp;<{$item.when}>
                 </span>
                 <span>
-                    <span class="fa fa-comment"></span>&nbsp;<{$item.comments}>
+                    <span class="fas fa-comment"></span>&nbsp;<{$item.comments}>
                 </span>
                 <span>
-                    <span class="fa fa-check-circle-o"></span>&nbsp;<{$item.counter}> <{$smarty.const._MD_PUBLISHER_READS}>
+                    <span class="fas fa-check-circle-o"></span>&nbsp;<{$item.counter}> <{$smarty.const._MD_PUBLISHER_READS}>
                 </span>
             </div>
             <{if $item.image_path}>

@@ -24,19 +24,20 @@
 	<link rel="icon" type="image/png" href="<{xoImgUrl}>images/favicon.png" />
 	<link rel="icon" type="image/gif" href="<{xoImgUrl}>images/favicon.gif" />
 	
-	<!-- JS -->
-	<script src="<{xoImgUrl}>/js/jquery-3.4.1.slim.min.js"></script>
-	<script src="<{xoImgUrl}>/js/popper.min.js"></script>
-	<script src="<{xoImgUrl}>/js/bootstrap.min.js"></script>
-	<script src="<{xoImgUrl}>/js/bootstrap.bundle.min.js"></script>
-	<script src="<{xoImgUrl}>/js/slick.js"></script>
-	<script src="<{xoImgUrl}>/fontawesome/js/all.min.js"></script>
-
+	<!-- JS --><!-- Just before </body>, other JS -->
+	<{* If using SVG in fontawesome project delete this comment for the 3 bottom lines
+	<script defer src="<{xoImgUrl}>fontawesome/js/brands.min.js"></script>
+	<script defer src="<{xoImgUrl}>fontawesome/js/solid.min.js"></script>
+	<script defer src="<{xoImgUrl}>fontawesome/js/fontawesome.min.js"></script>
+	Using SVG *}>
+	
 	<!-- CSS -->
-	<link rel="stylesheet" href="<{xoImgUrl}>/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<{xoImgUrl}>/css/bootstrap-grid.css">
-	<link rel="stylesheet" href="<{xoImgUrl}>/css/style.css">
-	<link rel="stylesheet" href="<{xoImgUrl}>/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>css/bootstrap.min.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>css/style.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>fontawesome/css/brands.min.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>fontawesome/css/solid.min.css">
+	<link rel="stylesheet" href="<{xoImgUrl}>css/xoops-org.css">
 
 	<{$xoops_module_header}>
 	
@@ -198,6 +199,11 @@
 <footer class="footer">  
 <{includeq file="$theme_name/tpl/footer.tpl"}>
 </footer>
+
+	<!-- JS -->
+	<!-- jQuery first, (then Popper.js included in bundle), then Bootstrap JS -->
+	<script src="<{xoImgUrl}>js/jquery-3.5.1.min.js"></script>
+	<script src="<{xoImgUrl}>js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

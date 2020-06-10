@@ -3,7 +3,7 @@
 	<{if $block.disp_mode == 0}>
 			<div class="job-box">
 			<div class="job-box-filter">
-				<h5><i class="fas fa-folder-open"></i> Recent Posts</h5>
+				<h5><span class="fas fa-folder-open"></span> Recent Posts</h5>
 			</div>
 				<div class="inbox-message">
 
@@ -13,9 +13,9 @@
 							
 								<div class="message-body1">
 									<div class="message-body-heading1">
-										<h5><a href="<{$topic.seo_url}>"><i class="fas fa-angle-right"></i> <{$topic.title}></a></h5>
+										<h5><a href="<{$topic.seo_url}>"><span class="fas fa-angle-right"></span> <{$topic.title}></a></h5>
 									</div>
-									<div class="olc"><i class="far fa-calendar-alt"></i> <{$topic.time}>  <i class="fas fa-user"></i> <{$topic.topic_poster}> </div>
+									<div class="olc"><span class="fas fa-calendar-alt"></span> <{$topic.time}>  <span class="fas fa-user"></span> <{$topic.topic_poster}> </div>
 								</div>
 					
 						</li>

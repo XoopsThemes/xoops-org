@@ -2,7 +2,7 @@
 
 			<div class="job-box">
 			<div class="job-box-filter">
-				<h5><i class="far fa-file-alt"></i> Recent Articles</h5>
+				<h5><span class="fas fa-file-alt"></span> Recent Articles</h5>
 			</div>
 				<div class="inbox-message">
 
@@ -12,9 +12,9 @@
 							
 								<div class="message-body1">
 									<div class="message-body-heading1">
-										<h5><a><i class="fas fa-angle-right"></i></a> <{$item.itemlink}></h5>
+										<h5><a><span class="fas fa-angle-right"></span></a> <{$item.itemlink}></h5>
 									</div>
-									<div class="olc"><i class="far fa-calendar-alt"></i> <{$item.date}>  <i class="fas fa-table"></i> <{$item.categorylink}> <i class="fas fa-user"></i> <{$item.poster}></div>
+									<div class="olc"><span class="fas fa-calendar-alt"></span> <{$item.date}>  <span class="fas fa-table"></span> <{$item.categorylink}> <span class="fas fa-user"></span> <{$item.poster}></div>
 								</div>
 					
 						</li>

@@ -44,11 +44,11 @@
 
 <body>
 	<!-- logo and top menu -->
-	<{includeq file="$theme_name/homemenu.tpl"}>
+	<{includeq file="$theme_name/tpl/homemenu.tpl"}>
 	<!-- Slider and submenu -->	
-	<{includeq file="$theme_name/slider-and-menu.tpl"}>
+	<{includeq file="$theme_name/tpl/slider-and-menu.tpl"}>
 	<!-- Module submenus -->	
-	<{includeq file="$theme_name/menubar.tpl"}>	  
+	<{includeq file="$theme_name/tpl/menubar.tpl"}>	  
 
 	  
 <{if $smarty.server.PHP_SELF=='/index.php'}> 
@@ -91,7 +91,7 @@
 		
 		<!-- Start Githup Recent Comments  -->
 		<div class="col-xl-6">
-			<{includeq file="$theme_name/githup.tpl"}>
+			<{includeq file="$theme_name/tpl/githup.tpl"}>
 		</div>
 		<!-- End Githup Recent Comments  -->
     </div>
@@ -151,7 +151,7 @@
 			<!-- Start right blocks loop -->
 			<{if $xoops_showrblock}>
 				<{foreach item=block from=$xoBlocks.canvas_right}>
-				<{includeq file="$theme_name/theme_blockright.tpl"}>
+				<{includeq file="$theme_name/tpl/theme_blockright.tpl"}>
 				<{/foreach}>
 			<{/if}>
 			<!-- End right blocks loop -->
@@ -196,7 +196,7 @@
 
 <!--footer starts from here-->
 <footer class="footer">  
-<{includeq file="$theme_name/footer.tpl"}>
+<{includeq file="$theme_name/tpl/footer.tpl"}>
 </footer>
 
 </body>

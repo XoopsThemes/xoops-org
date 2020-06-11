@@ -11,8 +11,8 @@
 									<{/if}>
                                 </div>
                                 <div class="right de">
-                                    <a href="<{$xoops_url}>/userinfo.php?uid=<{$user.id}>" title="<{$user.name}>"><i class="far fa-user"></i> <{$user.name}></a>
-                                    <p><i class="far fa-calendar-alt"></i> <{$user.joindate}></p>
+                                    <a href="<{$xoops_url}>/userinfo.php?uid=<{$user.id}>" title="<{$user.name}>"><span class="fas fa-user"></span> <{$user.name}></a>
+                                    <p><span class="fas fa-calendar-alt"></span> <{$user.joindate}></p>
                                 </div>
                             </li>
                         </ul>

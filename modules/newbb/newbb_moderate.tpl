@@ -19,7 +19,7 @@
     <{foreach item=colHead from=$columnHeaders}>
         <th>
             <{if $colHead.url}>
-            <a href="<{$colHead.url}>" title="<{$colHead.title}>"><{$colHead.header}> <span class="fa fa-sort" aria-hidden="true"></span></a>
+            <a href="<{$colHead.url}>" title="<{$colHead.title}>"><{$colHead.header}> <span class="fas fa-sort" aria-hidden="true"></span></a>
             <{else}>
             <{$colHead.header}>
             <{/if}>

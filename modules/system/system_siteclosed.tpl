@@ -41,7 +41,7 @@
                     <label for="xo-login-uname"><{$lang_username}></label>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"> </i></span>
+                            <span class="input-group-text" id="basic-addon1"><span class="fas fa-user"></span></span>
                         </div>
                         <input class="form-control" type="text" name="uname" id="xo-login-uname" placeholder="<{$smarty.const.THEME_LOGIN}>" aria-label="<{$lang_username}>" aria-describedby="basic-addon1">
                     </div>
@@ -49,7 +49,7 @@
                     <label for="xo-login-pass"><{$lang_password}></label>
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-lock"> </i></span>
+                            <span class="input-group-text" id="basic-addon2"><span class="fas fa-lock"></span></span>
                         </div>
                         <input class="form-control" type="password" name="pass" id="xo-login-pass" placeholder="<{$smarty.const.THEME_PASS}>" aria-label="<{$lang_password}>" aria-describedby="basic-addon2">
                     </div>
@@ -60,7 +60,7 @@
                     <label for="xo-login-button"> </label>
                     <div class="aligncenter">
                         <button id="xo-login-button" type="submit" class="btn btn-secondary">
-                            <span class="fa fa-sign-in" aria-hidden="true"></span>
+                            <span class="fas fa-sign-in" aria-hidden="true"></span>
                             <{$lang_login}>
                         </button>
                     </div>

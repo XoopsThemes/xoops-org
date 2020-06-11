@@ -34,7 +34,7 @@
                         </div>
                         <div class="media-body">
                             <h6 class="media-title"><{$item.title}></h6>
-							<div class="olc1"><i class="far fa-calendar-alt"></i> <{$item.posttime}>  <i class="fas fa-table"></i> <{$item.topic_title}> <i class="far fa-eye"></i> <{$item.read}></div>
+							<div class="olc1"><span class="fas fa-calendar-alt"></span> <{$item.posttime}>  <span class="fas fa-table"></span> <{$item.topic_title}> <span class="fas fa-eye"></span> <{$item.read}></div>
 							<{if $block.letters != 0}>
 							<{$item.text}>
 							<{/if}>

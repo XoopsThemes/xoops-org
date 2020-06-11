@@ -12,7 +12,7 @@
 
                 <button class="btn btn-dark" type="submit">
 
-                    <span class="fa fa-search"></span>
+                    <span class="fas fa-search"></span>
 
                 </button>
 

@@ -1,6 +1,6 @@
 		<div class="job-box">
 		<div class="job-box-filter">
-			<h5><i class="far fa-comments"></i> Recent Comments</h5>
+			<h5><span class="fas fa-comments"></span> Recent Comments</h5>
 		</div>
 			<div class="inbox-message">
 
@@ -10,9 +10,9 @@
 						
 							<div class="message-body1">
 								<div class="message-body-heading1">
-									<h5><a><i class="fas fa-angle-right"></i></a> <{$comment.title}></h5>
+									<h5><a><span class="fas fa-angle-right"></span></a> <{$comment.title}></h5>
 								</div>
-								<div class="olc"><i class="fas fa-user"></i> <{$comment.module}>  <i class="fas fa-folder-open"></i> <{$comment.poster}> <i class="far fa-calendar-alt"></i> <{$comment.time}></div>
+								<div class="olc"><span class="fas fa-user"></span> <{$comment.module}>  <span class="fas fa-folder-open"></span> <{$comment.poster}> <span class="fas fa-calendar-alt"></span> <{$comment.time}></div>
 							</div>
 				
 					</li>

@@ -38,7 +38,7 @@
         <{/if}>
 
         <a data-toggle="collapse" href="#forum-search" title="<{$smarty.const.THEME_FORUM_SEARCH}>" class="btn btn-info">
-            <span class="fa fa-search"></span>
+            <span class="fas fa-search"></span>
         </a>
 
         <{if $subforum}>
@@ -114,7 +114,7 @@
                     <a class="btn btn-xs btn-info" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewforum.php?forum=<{$forum_id}>&amp;status=active#admin" title="<{$smarty.const._MD_NEWBB_TYPE_ADMIN}>"><{$smarty.const._MD_NEWBB_TYPE_ADMIN}></a>
                     <a class="btn btn-xs btn-info" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewforum.php?forum=<{$forum_id}>&amp;status=pending#admin" title="<{$smarty.const._MD_NEWBB_TYPE_PENDING}>"><{$smarty.const._MD_NEWBB_TYPE_PENDING}></a>
                     <a class="btn btn-xs btn-info" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/viewforum.php?forum=<{$forum_id}>&amp;status=deleted#admin" title="<{$smarty.const._MD_NEWBB_TYPE_DELETED}>"><{$smarty.const._MD_NEWBB_TYPE_DELETED}></a>
-                    <a class="btn btn-xs btn-info" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/moderate.php?forum=<{$forum_id}>" title="<{$smarty.const._MD_NEWBB_TYPE_SUSPEND}>"><span class="fa fa-ban" aria-hidden="true"></span></a>
+                    <a class="btn btn-xs btn-info" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/moderate.php?forum=<{$forum_id}>" title="<{$smarty.const._MD_NEWBB_TYPE_SUSPEND}>"><span class="fas fa-ban" aria-hidden="true"></span></a>
                 <{/if}>
 
                 <{else}>
@@ -146,7 +146,7 @@
                 <{/if}>
                 <td class="d-none d-sm-table-cell"><{$topic.topic_folder}></td>
                 <td><a class="<{if $topic.topic_read eq 1 }>read-topic<{else}>new-topic<{/if}>" href="<{$xoops_url}>/modules/<{$xoops_dirname}>/<{$topic.topic_link}>" title="<{$topic.topic_excerpt}>"><{$topic.topic_title}></a></td>
-                <td class="d-none d-sm-table-cell"><span class="fa fa-user"></span> <{$topic.topic_poster}></td>
+                <td class="d-none d-sm-table-cell"><span class="fas fa-user"></span> <{$topic.topic_poster}></td>
                 <td><{$topic.topic_time}></td>
                 <td class="d-none d-sm-table-cell"><{$topic.topic_replies}></td>
                 <td class="d-none d-sm-table-cell"><{$topic.topic_views}></td>
@@ -154,7 +154,7 @@
                 <td class="d-none d-sm-table-cell"><{$topic.rating_img}></td>
                 <{/if}>
                 <{assign var='golast' value=`$smarty.const._MD_NEWBB_GOTOLASTPOST`}>
-                <{assign var='golastimg' value="<span class=\"fa fa-forward\" aria-hidden=\"true\" title=\"`$golast`\"></span>"}>
+                <{assign var='golastimg' value="<span class=\"fas fa-forward\" aria-hidden=\"true\" title=\"`$golast`\"></span>"}>
                 <td><{$topic.topic_last_posttime}> <{$smarty.const._MD_NEWBB_BY}> <{$topic.topic_last_poster}> <{$topic.topic_page_jump_icon|regex_replace:'/<img .*>/':$golastimg}></td>
             </tr>
             <{/foreach}>
@@ -165,15 +165,15 @@
             <th> </th>
         <{/if}>
         <th class="d-none d-sm-table-cell"> </th>
-        <th scope="col"><a href="<{$h_topic_link}>" title="<{$smarty.const._MD_NEWBB_TOPICS}>"><{$smarty.const._MD_NEWBB_TOPICS}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
-        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_poster_link}>" title="<{$smarty.const._MD_NEWBB_TOPICPOSTER}>"><{$smarty.const._MD_NEWBB_TOPICPOSTER}> <span class="fa fa-sort" aria-hidden="true"></a></span></th>
-        <th scope="col"><a href="<{$h_publish_link}>" title="<{$smarty.const._MD_NEWBB_TOPICTIME}>"><{$smarty.const._MD_NEWBB_TOPICTIME}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
-        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_reply_link}>" title="<{$smarty.const._MD_NEWBB_REPLIES}>"><{$smarty.const._MD_NEWBB_REPLIES}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
-        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_views_link}>" title="<{$smarty.const._MD_NEWBB_VIEWS}>"><{$smarty.const._MD_NEWBB_VIEWS}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
+        <th scope="col"><a href="<{$h_topic_link}>" title="<{$smarty.const._MD_NEWBB_TOPICS}>"><{$smarty.const._MD_NEWBB_TOPICS}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
+        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_poster_link}>" title="<{$smarty.const._MD_NEWBB_TOPICPOSTER}>"><{$smarty.const._MD_NEWBB_TOPICPOSTER}> <span class="fas fa-sort" aria-hidden="true"></a></span></th>
+        <th scope="col"><a href="<{$h_publish_link}>" title="<{$smarty.const._MD_NEWBB_TOPICTIME}>"><{$smarty.const._MD_NEWBB_TOPICTIME}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
+        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_reply_link}>" title="<{$smarty.const._MD_NEWBB_REPLIES}>"><{$smarty.const._MD_NEWBB_REPLIES}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
+        <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_views_link}>" title="<{$smarty.const._MD_NEWBB_VIEWS}>"><{$smarty.const._MD_NEWBB_VIEWS}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
         <{if $rating_enable}>
-            <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_rating_link}>" title="<{$smarty.const._MD_NEWBB_RATINGS}>"><{$smarty.const._MD_NEWBB_RATINGS}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
+            <th class="d-none d-sm-table-cell" scope="col"><a href="<{$h_rating_link}>" title="<{$smarty.const._MD_NEWBB_RATINGS}>"><{$smarty.const._MD_NEWBB_RATINGS}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
         <{/if}>
-        <th scope="col"><a href="<{$h_date_link}>" title="<{$smarty.const._MD_NEWBB_LASTPOSTTIME}>"><{$smarty.const._MD_NEWBB_LASTPOSTTIME}> <span class="fa fa-sort" aria-hidden="true"></span></a></th>
+        <th scope="col"><a href="<{$h_date_link}>" title="<{$smarty.const._MD_NEWBB_LASTPOSTTIME}>"><{$smarty.const._MD_NEWBB_LASTPOSTTIME}> <span class="fas fa-sort" aria-hidden="true"></span></a></th>
         </tr>
         </thead>
     </table>
@@ -205,7 +205,7 @@
         <{/strip}>
     </div>
 
-    <div class="col-sm-2 col-md-2"><a data-toggle="collapse" href="#forum-info" class="btn btn-info" title="<{$smarty.const.THEME_PERMISSIONS_LEGEND}>"><span class="fa fa-info"></span></a></div>
+    <div class="col-sm-2 col-md-2"><a data-toggle="collapse" href="#forum-info" class="btn btn-info" title="<{$smarty.const.THEME_PERMISSIONS_LEGEND}>"><span class="fas fa-info"></span></a></div>
     <div class="col-sm-10 col-md-10 text-right xoopsform"><{$forum_jumpbox|replace:' class="select"':' class="btn btn-light"'|replace:"'button'":'"btn btn-sm btn-light"'}></div>
 <!--<{$forum_addpoll}>-->
 </div>

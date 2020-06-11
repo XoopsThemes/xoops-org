@@ -64,7 +64,7 @@
             <div class="col-lg-2 col-md-2">
 			 <a href="/">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#5e5b5a"><i class="far fa-play-circle"></i></font></span></div>
+                <div class="display-4 mr-4"><font color="#5e5b5a"><span class="fas fa-play-circle"></span></font></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Why</h5>
 				  <h6 class="subtitle font-weight-light">Xoops</h6>
@@ -78,7 +78,7 @@
             <div class="col-lg-2 col-md-2">
 			<a href="/">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#54952a"><i class="far fa-check-circle"></i></font></span></div>
+                <div class="display-4 mr-4"><span class="fas fa-check-circle xoopscore-color"></span></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Xoops</h5>
 				  <h6 class="subtitle font-weight-light">Features</h6>
@@ -92,7 +92,7 @@
             <div class="col-lg-2 col-md-2">
 			<a href="<{xoAppUrl modules/newbb/}>">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#0b83c7"><i class="far fa-comments"></i></font></span></div>
+                <div class="display-4 mr-4"><font color="#0b83c7"><span class="fas fa-comments"></span></font></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Xoops</h5>
                   <h6 class="subtitle font-weight-light">Forums</h6>
@@ -106,7 +106,7 @@
 			<div class="col-lg-2 col-md-2">
 			<a href="/">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#263238"><i class="far fa-newspaper"></i></font></span></div>
+                <div class="display-4 mr-4"><span class="fas fa-newspaper text-secondary"></span></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Xoops</h5>
                   <h6 class="subtitle font-weight-light">News</h6>
@@ -121,7 +121,7 @@
 			<div class="col-lg-2 col-md-2">
 			<a href="/">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#ffab2c"><i class="fas fa-palette"></i></font></span></div>
+                <div class="display-4 mr-4"><span class="fas fa-palette xoopsthemes-color"></span></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Xoops</h5>
                   <h6 class="subtitle font-weight-light">Themes</h6>
@@ -136,7 +136,7 @@
 			<div class="col-lg-2 col-md-2">
 			<a href="/">
               <div class="d-flex my-2 hvr">
-                <div class="display-4 mr-4"><span class="text-success-gradiant"><font color="#139ee8"><i class="fas fa-cogs"></i></font></span></div>
+                <div class="display-4 mr-4"><span class="fas fa-cogs xoopsmodules-color"></span></div>
                 <div class="">
                   <h5 class="mb-0 font-weight-light">Xoops</h5>
                   <h6 class="subtitle font-weight-light">Modules</h6>

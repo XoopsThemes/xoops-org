@@ -1,0 +1,41 @@
+/* core */
+.xoopscore-color {
+color : #139EE8  ;
+}
+.xoopscore-border {
+border-color : #139EE8  ;
+border-style : solid;
+border-width : thin;
+}	
+.xoopscore-bg {
+background-color: #139EE8   ;
+}
+
+
+/* Modules color */	
+.xoopsmodules-color {
+color :  #747B9B
+}
+
+.xoopsmodules-border {
+border-color : #747B9B;
+border-style : solid;
+border-width : thin;
+}	
+.xoopsmodules-bg {
+background-color: #747B9B; 
+}
+
+
+/* Themes color */
+.xoopsthemes-color {
+color : darkseagreen;
+}
+.xoopsthemes-border {
+border-color : darkseagreen  ;
+border-style : solid;
+border-width : thin;
+}	
+.xoopsthemes-bg {
+background-color: darkseagreen   ;/*#A9D1B0*/
+}	
